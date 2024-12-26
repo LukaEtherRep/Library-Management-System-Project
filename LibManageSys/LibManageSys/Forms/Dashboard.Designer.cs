@@ -224,7 +224,7 @@
             this.rjddmnBook.MenuItemTextColor = System.Drawing.Color.Empty;
             this.rjddmnBook.Name = "rjddmnBook";
             this.rjddmnBook.PrimaryColor = System.Drawing.Color.Empty;
-            this.rjddmnBook.Size = new System.Drawing.Size(215, 138);
+            this.rjddmnBook.Size = new System.Drawing.Size(191, 116);
             // 
             // rjtsmiAddNewBook
             // 
@@ -232,7 +232,7 @@
             this.rjtsmiAddNewBook.Image = global::LibManageSys.Properties.Resources.icons8_add_book_48;
             this.rjtsmiAddNewBook.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.rjtsmiAddNewBook.Name = "rjtsmiAddNewBook";
-            this.rjtsmiAddNewBook.Size = new System.Drawing.Size(214, 56);
+            this.rjtsmiAddNewBook.Size = new System.Drawing.Size(190, 56);
             this.rjtsmiAddNewBook.Text = "Thêm sách mới";
             this.rjtsmiAddNewBook.Click += new System.EventHandler(this.rjtsmiAddNewBook_Click);
             // 
@@ -242,7 +242,7 @@
             this.rjtsmiViewBook.Image = global::LibManageSys.Properties.Resources.icons8_view_50;
             this.rjtsmiViewBook.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.rjtsmiViewBook.Name = "rjtsmiViewBook";
-            this.rjtsmiViewBook.Size = new System.Drawing.Size(214, 56);
+            this.rjtsmiViewBook.Size = new System.Drawing.Size(190, 56);
             this.rjtsmiViewBook.Text = "Xem sách";
             this.rjtsmiViewBook.Click += new System.EventHandler(this.rjtsmiViewBook_Click);
             // 
@@ -256,22 +256,23 @@
             this.rjddmnStudent.MenuItemTextColor = System.Drawing.Color.Empty;
             this.rjddmnStudent.Name = "rjddmnBook";
             this.rjddmnStudent.PrimaryColor = System.Drawing.Color.Empty;
-            this.rjddmnStudent.Size = new System.Drawing.Size(214, 116);
+            this.rjddmnStudent.Size = new System.Drawing.Size(215, 138);
             // 
             // thêmSinhViênToolStripMenuItem
             // 
             this.thêmSinhViênToolStripMenuItem.Image = global::LibManageSys.Properties.Resources.icons8_add_user_male_50;
             this.thêmSinhViênToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.thêmSinhViênToolStripMenuItem.Name = "thêmSinhViênToolStripMenuItem";
-            this.thêmSinhViênToolStripMenuItem.Size = new System.Drawing.Size(213, 56);
+            this.thêmSinhViênToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
             this.thêmSinhViênToolStripMenuItem.Text = "Thêm sinh viên";
+            this.thêmSinhViênToolStripMenuItem.Click += new System.EventHandler(this.thêmSinhViênToolStripMenuItem_Click);
             // 
             // chỉnhSửaThôngTinToolStripMenuItem
             // 
             this.chỉnhSửaThôngTinToolStripMenuItem.Image = global::LibManageSys.Properties.Resources.icons8_view_50;
             this.chỉnhSửaThôngTinToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.chỉnhSửaThôngTinToolStripMenuItem.Name = "chỉnhSửaThôngTinToolStripMenuItem";
-            this.chỉnhSửaThôngTinToolStripMenuItem.Size = new System.Drawing.Size(213, 56);
+            this.chỉnhSửaThôngTinToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
             this.chỉnhSửaThôngTinToolStripMenuItem.Text = "Chỉnh sửa thông tin";
             // 
             // Dashboard

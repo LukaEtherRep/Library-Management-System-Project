@@ -43,7 +43,7 @@ namespace LibManageSys
 
             timerProgress.Enabled = false;
             rjpgbProgress.Value = 0;
-            rjpgbProgress.Visible = true;
+            rjpgbProgress.Visible = false;
 
             _isTransfering = false;
         }
@@ -195,7 +195,7 @@ namespace LibManageSys
 
         private void SqlConnectionFinished()
         {
-            _bookName = txbBName.Text;
+            _bookName = txbBName.Texts;
             _bookAuthor = txbBAuthor.Texts;
             _bookPublication = txbBPublication.Texts;
             _bookPurchaseDate = rjdtpkBBought.Text;

@@ -32,7 +32,6 @@
             this.pnlHead = new System.Windows.Forms.Panel();
             this.rjbtnExit = new ToggleButton.RJControls.RJGoodShapeBtn();
             this.lblAddBooks = new System.Windows.Forms.Label();
-            this.picbBooks = new System.Windows.Forms.PictureBox();
             this.pnlBottem = new System.Windows.Forms.Panel();
             this.rjpgbProgress = new ToggleButton.RJControls.RJProgressBar();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -49,11 +48,12 @@
             this.lblBName = new System.Windows.Forms.Label();
             this.lblBAuthor = new System.Windows.Forms.Label();
             this.lblBPublication = new System.Windows.Forms.Label();
-            this.picbBranner = new System.Windows.Forms.PictureBox();
             this.timerProgress = new System.Windows.Forms.Timer(this.components);
+            this.picbBooks = new System.Windows.Forms.PictureBox();
+            this.picbBranner = new System.Windows.Forms.PictureBox();
             this.pnlHead.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbBooks)).BeginInit();
             this.pnlBottem.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbBooks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbBranner)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,18 +104,6 @@
             this.lblAddBooks.TabIndex = 1;
             this.lblAddBooks.Text = "Thêm Sách";
             this.lblAddBooks.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlHead_MouseDown);
-            // 
-            // picbBooks
-            // 
-            this.picbBooks.Image = global::LibManageSys.Properties.Resources.icons8_books_77;
-            this.picbBooks.Location = new System.Drawing.Point(241, 0);
-            this.picbBooks.Margin = new System.Windows.Forms.Padding(0);
-            this.picbBooks.Name = "picbBooks";
-            this.picbBooks.Size = new System.Drawing.Size(77, 77);
-            this.picbBooks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picbBooks.TabIndex = 0;
-            this.picbBooks.TabStop = false;
-            this.picbBooks.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlHead_MouseDown);
             // 
             // pnlBottem
             // 
@@ -409,6 +397,23 @@
             this.lblBPublication.TabIndex = 0;
             this.lblBPublication.Text = "Nhà Xuất Bản";
             // 
+            // timerProgress
+            // 
+            this.timerProgress.Interval = 15;
+            this.timerProgress.Tick += new System.EventHandler(this.timerProgress_Tick);
+            // 
+            // picbBooks
+            // 
+            this.picbBooks.Image = global::LibManageSys.Properties.Resources.icons8_books_77;
+            this.picbBooks.Location = new System.Drawing.Point(241, 0);
+            this.picbBooks.Margin = new System.Windows.Forms.Padding(0);
+            this.picbBooks.Name = "picbBooks";
+            this.picbBooks.Size = new System.Drawing.Size(77, 77);
+            this.picbBooks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbBooks.TabIndex = 0;
+            this.picbBooks.TabStop = false;
+            this.picbBooks.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlHead_MouseDown);
+            // 
             // picbBranner
             // 
             this.picbBranner.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -421,11 +426,6 @@
             this.picbBranner.TabIndex = 0;
             this.picbBranner.TabStop = false;
             this.picbBranner.Click += new System.EventHandler(this.picbBranner_Click);
-            // 
-            // timerProgress
-            // 
-            this.timerProgress.Interval = 30;
-            this.timerProgress.Tick += new System.EventHandler(this.timerProgress_Tick);
             // 
             // AddBooks
             // 
@@ -442,9 +442,9 @@
             this.Text = "AddBooks";
             this.pnlHead.ResumeLayout(false);
             this.pnlHead.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbBooks)).EndInit();
             this.pnlBottem.ResumeLayout(false);
             this.pnlBottem.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbBooks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbBranner)).EndInit();
             this.ResumeLayout(false);
 

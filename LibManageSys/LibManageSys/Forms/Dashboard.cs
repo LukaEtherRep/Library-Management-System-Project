@@ -59,5 +59,11 @@ namespace LibManageSys
             ViewBook viewBook = new ViewBook();
             viewBook.ShowDialog();
         }
+
+        private void thêmSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddStudent f = new AddStudent();
+            f.ShowDialog();
+        }
     }
 }
