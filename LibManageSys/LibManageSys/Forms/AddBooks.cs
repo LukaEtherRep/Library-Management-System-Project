@@ -30,8 +30,6 @@ namespace LibManageSys
         public AddBooks()
         {
             InitializeComponent();
-            this.ControlBox = false;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
             images = new List<Image>();
             images.Add(Properties.Resources.motivation1);
@@ -61,7 +59,9 @@ namespace LibManageSys
             {
                 int incrementValue = rjpgbProgress.IncrementValue;
                 rjpgbProgress.IncrementValue = 0;
-                DialogResult dlgr = MessageBox.Show("Dữ liệu chưa được lưu sẽ bị xóa, bạn có muốn tiếp tục?", "Lưu ý", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult dlgr = MessageBox.Show(
+                    "Dữ liệu chưa được lưu sẽ bị xóa, bạn có muốn tiếp tục?",
+                    "Lưu ý", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (dlgr == DialogResult.Yes)
                     this.Close();
                 else rjpgbProgress.IncrementValue = incrementValue;
@@ -92,7 +92,8 @@ namespace LibManageSys
                 {
                     txb.Text = text.Substring(0, text.Length - 1);
                     txb.SelectionStart = txb.Text.Length;
-                    MessageBox.Show("Bạn đã nhập sai định dạng dữ liệu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Bạn đã nhập sai định dạng dữ liệu", "Lỗi",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -101,7 +102,8 @@ namespace LibManageSys
         {
             if (CheckEmpty())
             {
-                MessageBox.Show("Không được để trống dữ liệu", "Lưu ý", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Không được để trống dữ liệu", "Lưu ý",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -133,7 +135,8 @@ namespace LibManageSys
         private bool CheckEmpty()
         {
             if (string.IsNullOrEmpty(txbBName.Texts) || string.IsNullOrEmpty(txbBAuthor.Texts) ||
-               string.IsNullOrEmpty(txbBPublication.Texts) || string.IsNullOrEmpty(rjdtpkBBought.Text) ||
+               string.IsNullOrEmpty(txbBPublication.Texts) || 
+               string.IsNullOrEmpty(rjdtpkBBought.Text) ||
                string.IsNullOrEmpty(txbBPrice.Texts) || string.IsNullOrEmpty(txbBQuan.Texts))
                 return true;
             else return false;
@@ -203,16 +206,23 @@ namespace LibManageSys
             _bookQuantity = Convert.ToInt32(txbBQuan.Texts);
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=LAPTOP-P99NMEFK\SQLEXPRESS;Initial Catalog=LibraryManagementSystem;Integrated Security=True";
+            con.ConnectionString = 
+                @"Data Source=LAPTOP-P99NMEFK\SQLEXPRESS;
+                Initial Catalog=LibraryManagementSystem;
+                Integrated Security=True";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
             con.Open();
-            cmd.CommandText = $"insert into SACH (bName,bAuthor,bPubl,bPDate,bPrice,bQuan) values (N'{_bookName}',N'{_bookAuthor}',N'{_bookPublication}','{_bookPurchaseDate}','{_bookPrice}','{_bookQuantity}')";
+            cmd.CommandText = 
+                $"insert into SACH (bName,bAuthor,bPubl,bPDate,bPrice,bQuan) " +
+                $"values (N'{_bookName}',N'{_bookAuthor}',N'{_bookPublication}'," +
+                $"'{_bookPurchaseDate}','{_bookPrice}','{_bookQuantity}')";
             cmd.ExecuteNonQuery();
             con.Close();
 
-            MessageBox.Show("Dữ liệu đã được lưu thành công", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Dữ liệu đã được lưu thành công", "Thành công",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

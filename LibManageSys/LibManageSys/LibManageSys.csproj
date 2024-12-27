@@ -67,11 +67,23 @@
     <Compile Include="Forms\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\IssueBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IssueBooks.Designer.cs">
+      <DependentUpon>IssueBooks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ViewBook.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ViewBook.Designer.cs">
       <DependentUpon>ViewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ViewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewStudent.Designer.cs">
+      <DependentUpon>ViewStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -90,8 +102,14 @@
     <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IssueBooks.resx">
+      <DependentUpon>IssueBooks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ViewBook.resx">
       <DependentUpon>ViewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ViewStudent.resx">
+      <DependentUpon>ViewStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -175,6 +193,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\addstudent.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issueBook.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-student-male-100.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -384,9 +384,9 @@
             this.lblEnroll.Location = new System.Drawing.Point(15, 78);
             this.lblEnroll.Margin = new System.Windows.Forms.Padding(15, 0, 0, 30);
             this.lblEnroll.Name = "lblEnroll";
-            this.lblEnroll.Size = new System.Drawing.Size(74, 19);
+            this.lblEnroll.Size = new System.Drawing.Size(100, 19);
             this.lblEnroll.TabIndex = 1;
-            this.lblEnroll.Text = "Ghi Danh";
+            this.lblEnroll.Text = "Mã Ghi Danh";
             // 
             // lblDepartment
             // 

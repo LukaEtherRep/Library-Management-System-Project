@@ -60,9 +60,21 @@ namespace LibManageSys
             viewBook.ShowDialog();
         }
 
-        private void thêmSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tsmiAddStudent_Click(object sender, EventArgs e)
         {
             AddStudent f = new AddStudent();
+            f.ShowDialog();
+        }
+
+        private void tsmiViewStudent_Click(object sender, EventArgs e)
+        {
+            ViewStudent f = new ViewStudent();
+            f.ShowDialog();
+        }
+
+        private void rjbtnIssue_Click(object sender, EventArgs e)
+        {
+            IssueBooks f = new IssueBooks();
             f.ShowDialog();
         }
     }

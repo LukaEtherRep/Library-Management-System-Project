@@ -85,7 +85,7 @@
             this.rjbtnExit.FlatAppearance.BorderSize = 0;
             this.rjbtnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjbtnExit.ForeColor = System.Drawing.Color.White;
-            this.rjbtnExit.Location = new System.Drawing.Point(950, 6);
+            this.rjbtnExit.Location = new System.Drawing.Point(961, 6);
             this.rjbtnExit.Name = "rjbtnExit";
             this.rjbtnExit.Size = new System.Drawing.Size(20, 20);
             this.rjbtnExit.TabIndex = 2;
@@ -126,7 +126,7 @@
             this.lblBName.AutoSize = true;
             this.lblBName.Font = new System.Drawing.Font("Gadugi", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBName.ForeColor = System.Drawing.Color.Black;
-            this.lblBName.Location = new System.Drawing.Point(262, 161);
+            this.lblBName.Location = new System.Drawing.Point(262, 151);
             this.lblBName.Name = "lblBName";
             this.lblBName.Size = new System.Drawing.Size(95, 24);
             this.lblBName.TabIndex = 2;
@@ -142,7 +142,7 @@
             this.rjtxbBName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.rjtxbBName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjtxbBName.ForeColor = System.Drawing.Color.Black;
-            this.rjtxbBName.Location = new System.Drawing.Point(364, 157);
+            this.rjtxbBName.Location = new System.Drawing.Point(364, 147);
             this.rjtxbBName.Margin = new System.Windows.Forms.Padding(4);
             this.rjtxbBName.Multiline = false;
             this.rjtxbBName.Name = "rjtxbBName";
@@ -163,7 +163,7 @@
             this.btnRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRefresh.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(621, 157);
+            this.btnRefresh.Location = new System.Drawing.Point(621, 147);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(88, 32);
             this.btnRefresh.TabIndex = 4;
@@ -174,7 +174,7 @@
             // dtgvInfo
             // 
             this.dtgvInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvInfo.Location = new System.Drawing.Point(12, 195);
+            this.dtgvInfo.Location = new System.Drawing.Point(12, 185);
             this.dtgvInfo.MultiSelect = false;
             this.dtgvInfo.Name = "dtgvInfo";
             this.dtgvInfo.RowHeadersWidth = 51;
@@ -200,7 +200,7 @@
             this.pnlInfo.Controls.Add(this.lblPublication);
             this.pnlInfo.Controls.Add(this.lblAuthor);
             this.pnlInfo.Controls.Add(this.lblBook);
-            this.pnlInfo.Location = new System.Drawing.Point(12, 513);
+            this.pnlInfo.Location = new System.Drawing.Point(12, 503);
             this.pnlInfo.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.pnlInfo.Name = "pnlInfo";
             this.pnlInfo.Size = new System.Drawing.Size(970, 326);

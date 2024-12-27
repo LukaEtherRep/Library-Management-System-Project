@@ -41,8 +41,8 @@
             this.rjtsmiAddNewBook = new System.Windows.Forms.ToolStripMenuItem();
             this.rjtsmiViewBook = new System.Windows.Forms.ToolStripMenuItem();
             this.rjddmnStudent = new ToggleButton.RJControls.RJDropdownMenu(this.components);
-            this.thêmSinhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chỉnhSửaThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAddStudent = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiViewStudent = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlTop.SuspendLayout();
             this.rjddmnBook.SuspendLayout();
             this.rjddmnStudent.SuspendLayout();
@@ -163,6 +163,7 @@
             this.rjbtnIssue.TextColor = System.Drawing.Color.Black;
             this.rjbtnIssue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.rjbtnIssue.UseVisualStyleBackColor = false;
+            this.rjbtnIssue.Click += new System.EventHandler(this.rjbtnIssue_Click);
             // 
             // rjbtnStudent
             // 
@@ -250,30 +251,31 @@
             // 
             this.rjddmnStudent.IsMainMenu = false;
             this.rjddmnStudent.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thêmSinhViênToolStripMenuItem,
-            this.chỉnhSửaThôngTinToolStripMenuItem});
+            this.tsmiAddStudent,
+            this.tsmiViewStudent});
             this.rjddmnStudent.MenuItemHeight = 25;
             this.rjddmnStudent.MenuItemTextColor = System.Drawing.Color.Empty;
             this.rjddmnStudent.Name = "rjddmnBook";
             this.rjddmnStudent.PrimaryColor = System.Drawing.Color.Empty;
-            this.rjddmnStudent.Size = new System.Drawing.Size(215, 138);
+            this.rjddmnStudent.Size = new System.Drawing.Size(190, 116);
             // 
-            // thêmSinhViênToolStripMenuItem
+            // tsmiAddStudent
             // 
-            this.thêmSinhViênToolStripMenuItem.Image = global::LibManageSys.Properties.Resources.icons8_add_user_male_50;
-            this.thêmSinhViênToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.thêmSinhViênToolStripMenuItem.Name = "thêmSinhViênToolStripMenuItem";
-            this.thêmSinhViênToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
-            this.thêmSinhViênToolStripMenuItem.Text = "Thêm sinh viên";
-            this.thêmSinhViênToolStripMenuItem.Click += new System.EventHandler(this.thêmSinhViênToolStripMenuItem_Click);
+            this.tsmiAddStudent.Image = global::LibManageSys.Properties.Resources.icons8_add_user_male_50;
+            this.tsmiAddStudent.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiAddStudent.Name = "tsmiAddStudent";
+            this.tsmiAddStudent.Size = new System.Drawing.Size(189, 56);
+            this.tsmiAddStudent.Text = "Thêm sinh viên";
+            this.tsmiAddStudent.Click += new System.EventHandler(this.tsmiAddStudent_Click);
             // 
-            // chỉnhSửaThôngTinToolStripMenuItem
+            // tsmiViewStudent
             // 
-            this.chỉnhSửaThôngTinToolStripMenuItem.Image = global::LibManageSys.Properties.Resources.icons8_view_50;
-            this.chỉnhSửaThôngTinToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.chỉnhSửaThôngTinToolStripMenuItem.Name = "chỉnhSửaThôngTinToolStripMenuItem";
-            this.chỉnhSửaThôngTinToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
-            this.chỉnhSửaThôngTinToolStripMenuItem.Text = "Chỉnh sửa thông tin";
+            this.tsmiViewStudent.Image = global::LibManageSys.Properties.Resources.icons8_view_50;
+            this.tsmiViewStudent.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiViewStudent.Name = "tsmiViewStudent";
+            this.tsmiViewStudent.Size = new System.Drawing.Size(189, 56);
+            this.tsmiViewStudent.Text = "Xem sinh viên";
+            this.tsmiViewStudent.Click += new System.EventHandler(this.tsmiViewStudent_Click);
             // 
             // Dashboard
             // 
@@ -309,7 +311,7 @@
         private System.Windows.Forms.ToolStripMenuItem rjtsmiAddNewBook;
         private System.Windows.Forms.ToolStripMenuItem rjtsmiViewBook;
         private ToggleButton.RJControls.RJDropdownMenu rjddmnStudent;
-        private System.Windows.Forms.ToolStripMenuItem thêmSinhViênToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem chỉnhSửaThôngTinToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAddStudent;
+        private System.Windows.Forms.ToolStripMenuItem tsmiViewStudent;
     }
 }

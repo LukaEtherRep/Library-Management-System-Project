@@ -18,14 +18,12 @@ namespace LibManageSys.Forms
         private String _stuEnroll;
         private String _stuDepart;
         private String _stuSem;
-        private String _stuPhone;
+        private long _stuPhone;
         private String _stuEmail;
 
         public AddStudent()
         {
             InitializeComponent();
-            this.ControlBox = false;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -87,7 +85,7 @@ namespace LibManageSys.Forms
             _stuEnroll = txbEnroll.Texts;
             _stuDepart = txbDepartment.Texts;
             _stuSem = txbSemester.Texts;
-            _stuPhone = txbPhone.Texts;
+            _stuPhone = Int64.Parse(txbPhone.Texts);
             _stuEmail = txbEmail.Texts;
 
             SqlConnection con = new SqlConnection();
@@ -103,7 +101,7 @@ namespace LibManageSys.Forms
                 $"insert into SINHVIEN " +
                 $"(sname,enroll,dep,sem,contact,email) " +
                 $"values (N'{_stuName}',N'{_stuEnroll}'," +
-                $"N'{_stuDepart}','{_stuSem}','{_stuPhone}'," +
+                $"N'{_stuDepart}','{_stuSem}',{_stuPhone}," +
                 $"'{_stuEmail}')";
             cmd.ExecuteNonQuery();
             con.Close();
