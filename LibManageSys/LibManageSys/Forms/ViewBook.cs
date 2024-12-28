@@ -47,7 +47,6 @@ namespace LibManageSys.Forms
         private void ViewBook_Load(object sender, EventArgs e)
         {
             SQLConnection_Load();
-            FormatDataGridView(dtgvInfo);
         }
 
         private void SQLConnection_Load()
@@ -70,21 +69,11 @@ namespace LibManageSys.Forms
             dtgvInfo.DataSource = ds.Tables[0];
         }
 
-        private void FormatDataGridView(DataGridView dtgv)
-        {
-            int columns = dtgv.ColumnCount;
-            int eachColumn = dtgv.Width / columns;
-
-            for (int i = 0; i < columns; i++)
-            {
-                dtgv.Columns[i].Width = eachColumn;
-            }
-        }
-
         private int _bid;
         private int rowID;
         private void dtgvInfo_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
             object cell = dtgvInfo.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
             if (!string.IsNullOrEmpty(cell.ToString()))
             {

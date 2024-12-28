@@ -42,7 +42,6 @@ namespace LibManageSys.Forms
         {
             if(!string.IsNullOrEmpty(rjtxbSearchEnroll.Texts))
             {
-                if (rjtxbSearchEnroll.Texts.Length > 1) return;
                 lblTitle.Text = _searchingStudent;
                 Image image = Properties.Resources.search1;
                 picbTitle.Image = image;
@@ -108,25 +107,13 @@ namespace LibManageSys.Forms
             da.Fill(ds);
 
             dtgvInfo.DataSource = ds.Tables[0];
-
-            FormatDataGridView(dtgvInfo);
-        }
-
-        private void FormatDataGridView(DataGridView dtgv)
-        {
-            int columns = dtgv.ColumnCount;
-            int eachColumn = dtgv.Width / columns;
-
-            for (int i = 0; i < columns; i++)
-            {
-                dtgv.Columns[i].Width = eachColumn;
-            }
         }
 
         private int _stuid;
         private Int64 _rowId;
         private void dtgvInfo_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
             object cell = dtgvInfo.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
             if (!string.IsNullOrEmpty(cell.ToString()))
             {
@@ -261,7 +248,7 @@ namespace LibManageSys.Forms
             }
             finally
             {
-                con.Close();  // Đảm bảo đóng kết nối sau khi xong
+                con.Close();
             }
         }
 

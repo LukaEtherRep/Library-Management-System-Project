@@ -136,8 +136,8 @@
             // 
             // rjbtnExit
             // 
-            this.rjbtnExit.BackColor = System.Drawing.Color.LightGray;
-            this.rjbtnExit.BackgroundColor = System.Drawing.Color.LightGray;
+            this.rjbtnExit.BackColor = System.Drawing.Color.LightCoral;
+            this.rjbtnExit.BackgroundColor = System.Drawing.Color.LightCoral;
             this.rjbtnExit.BorderColor = System.Drawing.Color.Gray;
             this.rjbtnExit.BorderRadius = 5;
             this.rjbtnExit.BorderSize = 2;

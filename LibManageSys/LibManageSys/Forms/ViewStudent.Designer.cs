@@ -68,7 +68,7 @@
             this.pnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitle.Location = new System.Drawing.Point(0, 0);
             this.pnlTitle.Name = "pnlTitle";
-            this.pnlTitle.Size = new System.Drawing.Size(977, 134);
+            this.pnlTitle.Size = new System.Drawing.Size(982, 134);
             this.pnlTitle.TabIndex = 1;
             this.pnlTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitle_MouseDown);
             // 
@@ -87,7 +87,6 @@
             this.rjbtnExit.Name = "rjbtnExit";
             this.rjbtnExit.Size = new System.Drawing.Size(20, 20);
             this.rjbtnExit.TabIndex = 2;
-            this.rjbtnExit.Text = "rjGoodShapeBtn1";
             this.rjbtnExit.TextColor = System.Drawing.Color.White;
             this.rjbtnExit.UseVisualStyleBackColor = false;
             this.rjbtnExit.Click += new System.EventHandler(this.rjbtnExit_Click);
@@ -165,12 +164,15 @@
             this.lbSearchEnroll.ForeColor = System.Drawing.Color.Black;
             this.lbSearchEnroll.Location = new System.Drawing.Point(245, 156);
             this.lbSearchEnroll.Name = "lbSearchEnroll";
-            this.lbSearchEnroll.Size = new System.Drawing.Size(134, 24);
+            this.lbSearchEnroll.Size = new System.Drawing.Size(135, 24);
             this.lbSearchEnroll.TabIndex = 5;
-            this.lbSearchEnroll.Text = "Mã Ghi Danh";
+            this.lbSearchEnroll.Text = "Mã Sinh Viên";
             // 
             // dtgvInfo
             // 
+            this.dtgvInfo.AllowUserToAddRows = false;
+            this.dtgvInfo.AllowUserToDeleteRows = false;
+            this.dtgvInfo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgvInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvInfo.Location = new System.Drawing.Point(12, 190);
             this.dtgvInfo.MultiSelect = false;
@@ -230,6 +232,7 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.BackColor = System.Drawing.Color.LightCoral;
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancel.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -239,7 +242,7 @@
             this.btnCancel.Size = new System.Drawing.Size(100, 32);
             this.btnCancel.TabIndex = 14;
             this.btnCancel.Text = "Hủy";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnDelete

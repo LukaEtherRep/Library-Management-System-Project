@@ -115,7 +115,7 @@
             this.rjtxbPassword.Multiline = false;
             this.rjtxbPassword.Name = "rjtxbPassword";
             this.rjtxbPassword.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjtxbPassword.PasswordChar = false;
+            this.rjtxbPassword.PasswordChar = true;
             this.rjtxbPassword.PlaceholderColor = System.Drawing.Color.Gray;
             this.rjtxbPassword.PlaceholderText = "Password";
             this.rjtxbPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;

@@ -3,44 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\completebookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\completebookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\completebookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\completebookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|c:\\users\\acer\\source\\winfprojects\\libmanagesys\\libmanagesys\\libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\forms\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\libmanagesys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B943E20-B6C2-47AC-A5A3-964CED897DB4}|LibManageSys\\LibManageSys.csproj|solutionrelative:libmanagesys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +110,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompleteBookDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "RelativeToolTip": "LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T03:41:04.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompleteBookDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\CompleteBookDetails.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\CompleteBookDetails.cs [Design]",
+              "RelativeToolTip": "LibManageSys\\Forms\\CompleteBookDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T03:36:21.881Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Program.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Program.cs",
+              "RelativeToolTip": "LibManageSys\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:52:43.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\MainForm.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\MainForm.cs",
+              "RelativeToolTip": "LibManageSys\\MainForm.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswBoAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T03:41:13.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\MainForm.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\MainForm.cs [Design]",
+              "RelativeToolTip": "LibManageSys\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:51:40.43Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\Dashboard.cs",
+              "RelativeToolTip": "LibManageSys\\Forms\\Dashboard.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwFkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:24:43.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\Dashboard.cs [Design]",
+              "RelativeToolTip": "LibManageSys\\Forms\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:24:40.1Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReturnBook.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ReturnBook.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\ReturnBook.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ReturnBook.cs",
+              "RelativeToolTip": "LibManageSys\\Forms\\ReturnBook.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:25:52.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReturnBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ReturnBook.cs",
+              "RelativeDocumentMoniker": "LibManageSys\\Forms\\ReturnBook.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ReturnBook.cs [Design]",
+              "RelativeToolTip": "LibManageSys\\Forms\\ReturnBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:02:45.181Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ViewStudent.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewStudent.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\ViewStudent.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewStudent.cs",
               "RelativeToolTip": "LibManageSys\\Forms\\ViewStudent.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAmwFoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T10:50:37.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ViewStudent.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewStudent.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\ViewStudent.cs",
@@ -99,20 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ViewBook.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewBook.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\ViewBook.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewBook.cs",
               "RelativeToolTip": "LibManageSys\\Forms\\ViewBook.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T10:54:03.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "ViewBook.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\ViewBook.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\ViewBook.cs",
@@ -124,20 +272,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "AddStudent.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddStudent.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\AddStudent.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddStudent.cs",
               "RelativeToolTip": "LibManageSys\\Forms\\AddStudent.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA8wDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T10:49:41.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AddStudent.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddStudent.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\AddStudent.cs",
@@ -149,20 +297,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "AddBooks.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddBooks.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\AddBooks.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddBooks.cs",
               "RelativeToolTip": "LibManageSys\\Forms\\AddBooks.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwEYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAmwKoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T04:13:08.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AddBooks.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\AddBooks.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\AddBooks.cs",
@@ -174,20 +322,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "IssueBooks.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\IssueBooks.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\IssueBooks.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\IssueBooks.cs",
               "RelativeToolTip": "LibManageSys\\Forms\\IssueBooks.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAA8wP0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwBAAAAAAAAAAA8wBMBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T04:13:02.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "IssueBooks.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\WinFProjects\\LibManageSys\\LibManageSys\\LibManageSys\\Forms\\IssueBooks.cs",
               "RelativeDocumentMoniker": "LibManageSys\\Forms\\IssueBooks.cs",

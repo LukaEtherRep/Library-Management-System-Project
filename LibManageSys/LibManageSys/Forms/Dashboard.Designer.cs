@@ -108,11 +108,12 @@
             this.rjbtnFinish.Name = "rjbtnFinish";
             this.rjbtnFinish.Size = new System.Drawing.Size(240, 60);
             this.rjbtnFinish.TabIndex = 4;
-            this.rjbtnFinish.Text = "Hoàn Thiện Nội Dung Sách";
+            this.rjbtnFinish.Text = "Kiểm Tra Mượn Trả Sách";
             this.rjbtnFinish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.rjbtnFinish.TextColor = System.Drawing.Color.Black;
             this.rjbtnFinish.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.rjbtnFinish.UseVisualStyleBackColor = false;
+            this.rjbtnFinish.Click += new System.EventHandler(this.rjbtnFinish_Click);
             // 
             // rjbtnReturn
             // 
@@ -138,6 +139,7 @@
             this.rjbtnReturn.TextColor = System.Drawing.Color.Black;
             this.rjbtnReturn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.rjbtnReturn.UseVisualStyleBackColor = false;
+            this.rjbtnReturn.Click += new System.EventHandler(this.rjbtnReturn_Click);
             // 
             // rjbtnIssue
             // 
@@ -158,7 +160,7 @@
             this.rjbtnIssue.Name = "rjbtnIssue";
             this.rjbtnIssue.Size = new System.Drawing.Size(140, 60);
             this.rjbtnIssue.TabIndex = 2;
-            this.rjbtnIssue.Text = "Phân Phối";
+            this.rjbtnIssue.Text = "Mượn Sách";
             this.rjbtnIssue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.rjbtnIssue.TextColor = System.Drawing.Color.Black;
             this.rjbtnIssue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;

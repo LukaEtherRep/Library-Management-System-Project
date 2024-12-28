@@ -77,5 +77,17 @@ namespace LibManageSys
             IssueBooks f = new IssueBooks();
             f.ShowDialog();
         }
+
+        private void rjbtnReturn_Click(object sender, EventArgs e)
+        {
+            ReturnBook f = new ReturnBook();
+            f.ShowDialog();
+        }
+
+        private void rjbtnFinish_Click(object sender, EventArgs e)
+        {
+            CompleteBookDetails f = new CompleteBookDetails();
+            f.ShowDialog();
+        }
     }
 }

@@ -107,12 +107,12 @@ namespace LibManageSys.Forms
 
                 if (DS.Tables[0].Rows.Count != 0)
                 {
-                    txbSName.Texts = DS.Tables[0].Rows[0][1].ToString();
+                    txbSName.Texts = lblFoundStudent.Text = DS.Tables[0].Rows[0][1].ToString();
                     txbSDepart.Texts = DS.Tables[0].Rows[0][3].ToString();
                     txbSSem.Texts = DS.Tables[0].Rows[0][4].ToString();
                     txbSPhone.Texts = DS.Tables[0].Rows[0][5].ToString();
                     txbSEmail.Texts = DS.Tables[0].Rows[0][6].ToString();
-                }
+                                    }
                 else
                 {
                     txbSName.Texts = "";
@@ -131,59 +131,68 @@ namespace LibManageSys.Forms
         {
             if(!string.IsNullOrEmpty(txbSName.Texts))
             {
-                if(rjcbBName.SelectedIndex != -1 && _count <= 2)
+                if(rjcbBName.SelectedIndex != -1)
                 {
-                    String enroll = rjtxbSearchEnroll.Texts;
-                    String sname = txbSName.Texts;
-                    String sdep = txbSDepart.Texts;
-                    String sem = txbSSem.Texts;
-                    Int64 sphone = Int64.Parse(txbSPhone.Texts);
-                    String email = txbSEmail.Texts;
-                    String bookName = rjcbBName.Texts;
-                    String bookIssueDate = ParseLongDateToShortDate(rjdtpkIssueDate.Text);
+                    if (_count <= 2)
+                    {
+                        String enroll = rjtxbSearchEnroll.Texts;
+                        String sname = txbSName.Texts;
+                        String sdep = txbSDepart.Texts;
+                        String sem = txbSSem.Texts;
+                        Int64 sphone = Int64.Parse(txbSPhone.Texts);
+                        String email = txbSEmail.Texts;
+                        String bookName = rjcbBName.Texts;
+                        String bookIssueDate = ParseLongDateToShortDate(rjdtpkIssueDate.Text);
 
-                    SqlConnection con = new SqlConnection();
-                    con.ConnectionString =
-                        @"Data Source=LAPTOP-P99NMEFK\SQLEXPRESS;
+                        SqlConnection con = new SqlConnection();
+                        con.ConnectionString =
+                            @"Data Source=LAPTOP-P99NMEFK\SQLEXPRESS;
                         Initial Catalog=LibraryManagementSystem;
                         Integrated Security=True";
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = con;
-                    cmd.CommandText =
-                        $"Insert into MUONSACH (std_enroll,std_name,std_dep,std_sem," +
-                        $"std_phone,std_email,book_name,book_issue_date) " +
-                        $"values ('{enroll}','{sname}','{sdep}','{sem}',{sphone}," +
-                        $"'{email}','{bookName}','{bookIssueDate}')";
+                        SqlCommand cmd = new SqlCommand();
+                        cmd.Connection = con;
+                        cmd.CommandText =
+                            $"Insert into MUONSACH (std_enroll,std_name,std_dep,std_sem," +
+                            $"std_phone,std_email,book_name,book_issue_date) " +
+                            $"values (N'{enroll}',N'{sname}',N'{sdep}','{sem}',{sphone}," +
+                            $"'{email}',N'{bookName}','{bookIssueDate}')";
 
-                    try
-                    {
-                        con.Open();
-                        int rowsAffected = cmd.ExecuteNonQuery();
-                        if (rowsAffected > 0)
+                        try
                         {
-                            MessageBox.Show("Cập nhật thành công!", "Thông báo",
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            con.Open();
+                            int rowsAffected = cmd.ExecuteNonQuery();
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Cập nhật thành công!", "Thông báo",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                            UpdateBookCount(enroll);
+                                SQLConnection_Load("MUONSACH");
+                                UpdateBookCount(enroll);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Lỗi không xác định", "Lỗi",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            MessageBox.Show("Lỗi không xác định", "Lỗi",
-                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"Có lỗi xảy ra: {ex.Message}");
                         }
+                        finally
+                        {
+                            con.Close();
+                        } 
                     }
-                    catch (Exception ex)
+                    else
                     {
-                        MessageBox.Show($"Có lỗi xảy ra: {ex.Message}");
-                    }
-                    finally
-                    {
-                        con.Close();
+                        MessageBox.Show("Số lượng sách mượn vượt quá quy định.",
+                        "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Hãy chọn sách. Hoặc số lượng sách mượn vướt quá quy định.",
+                    MessageBox.Show("Hãy chọn sách.",
                         "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -192,6 +201,22 @@ namespace LibManageSys.Forms
                 MessageBox.Show("Hãy nhập vào mã sinh viên hợp lệ!", "Lỗi",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void SQLConnection_Load(string table)
+        {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString =
+                @"Data Source=LAPTOP-P99NMEFK\SQLEXPRESS;
+                Initial Catalog=LibraryManagementSystem;
+                Integrated Security=True";
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+
+            cmd.CommandText = $"select * from {table}";
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
         }
 
         private void UpdateBookCount(string enroll)
@@ -263,7 +288,13 @@ namespace LibManageSys.Forms
 
         private void rjbtnRefresh_Click(object sender, EventArgs e)
         {
-            rjtxbSearchEnroll.Texts = "";
+            rjtxbSearchEnroll.Texts = string.Empty;
+            txbSName.Texts = string.Empty;
+            txbSDepart.Texts = string.Empty;
+            txbSSem.Texts = string.Empty;
+            txbSPhone.Texts = string.Empty;
+            txbSEmail.Texts = string.Empty;
+            rjcbBName.Texts = string.Empty;
         }
     }
 }
